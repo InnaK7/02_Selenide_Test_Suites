@@ -5,6 +5,8 @@ import org.junit.experimental.categories.Category;
 import com.tasj.TodoMVC.BaseTest;
 import com.tasj.TodoMVC.testSuitesMavenProfiles.categories.Smoke;
 
+import static com.tasj.TodoMVC.testSuitesMavenProfiles.pages.TodoMVC.*;
+
 public class TodosE2ETest extends BaseTest {
 
     @Category(Smoke.class)

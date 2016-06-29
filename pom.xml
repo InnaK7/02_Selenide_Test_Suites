@@ -80,8 +80,8 @@
         <profile>
             <id>Smoke</id>
             <properties>
-                <test.includeCategories>ua.net.itlabs.TodoMVC.testSuitesMavenProfiles.categories.Smoke</test.includeCategories>
-                <test.excludeCategories>ua.net.itlabs.TodoMVC.testSuitesMavenProfiles.categories.Buggy</test.excludeCategories>
+                <test.includeCategories>Smoke</test.includeCategories>
+                <test.excludeCategories>Buggy</test.excludeCategories>
             </properties>
         </profile>
         <profile>
@@ -94,7 +94,7 @@
         <profile>
             <id>Buggy</id>
             <properties>
-                <test.includeCategories>ua.net.itlabs.TodoMVC.testSuitesMavenProfiles.categories.Buggy</test.includeCategories>
+                <test.includeCategories>Buggy</test.includeCategories>
                 <test.excludeCategories></test.excludeCategories>
             </properties>
         </profile>
@@ -102,7 +102,7 @@
             <id>FullAcceptance</id>
             <properties>
                 <test.includeCategories></test.includeCategories>
-                <test.excludeCategories>ua.net.itlabs.TodoMVC.testSuitesMavenProfiles.categories.Buggy</test.excludeCategories>
+                <test.excludeCategories>Buggy</test.excludeCategories>
             </properties>
         </profile>
     </profiles>

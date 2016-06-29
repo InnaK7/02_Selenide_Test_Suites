@@ -4,7 +4,6 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Screenshots;
 import com.google.common.io.Files;
 import org.junit.After;
-import org.junit.BeforeClass;
 import ru.yandex.qatools.allure.annotations.Attachment;
 
 import java.io.File;
